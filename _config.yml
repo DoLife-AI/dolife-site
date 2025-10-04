@@ -38,46 +38,41 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
+  - title                                 : Organize by Domain
+    description                           : Create custom Domains—Home, School, Sports, Work, and more—to group and instantly filter your tasks.
     fontawesome_icon_name                 : magic
-    
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
+
+  - title                                 : Share and Assign Tasks with Others
+    description                           : Real-time cloud sharing with partners and caregivers. Assign owners, follow progress, and stay aligned.
     fontawesome_icon_name                 : mobile
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
+  - title                                 : Sync with Google or Apple Calendars
+    description                           : View and add events that stay in sync with your favorite calendar so plans are always up to date.
     fontawesome_icon_name                 : play-circle
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
+  - title                                 : Choose Due Dates or Urgency
+    description                           : Skip arbitrary due dates when you don’t need them—set an urgency instead (High, Mid, Low) and focus on what matters now.
     fontawesome_icon_name                 : sync
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
+  - title                                 : Assign Child Badges
+    description                           : Tag tasks with child badges—perfect for kids in the same class or league—so you can filter and find what’s relevant fast.
     fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
+
+  - title                                 : Plan Tab for Today
+    description                           : Curate a lightweight Today/Weekend list without the noise of your full backlog—reduce overwhelm and finish more.
     fontawesome_icon_name                 : star
 
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
+  - title                                 : Subtasks for Clear Steps
+    description                           : Break big tasks into bite-size, checkable subtasks to make progress obvious.
     fontawesome_icon_name                 : arrow-alt-circle-down
 
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
+  - title                                 : Recurring Tasks and Events
+    description                           : Set tasks and calendar events to repeat on your schedule—daily, weekly, or custom—with smart reminders.
     fontawesome_icon_name                 : link
 
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
+  - title                                 : SUPER URGENT (Must-Do Today)
+    description                           : Mark critical items as SUPER URGENT to keep them front and center—and get a friendly evening nudge if they’re still open.
     fontawesome_icon_name                 : info-circle
-
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
-
 
 
 # Theme Settings
