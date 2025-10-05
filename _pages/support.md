@@ -2,6 +2,7 @@
 layout: page
 title: Support
 permalink: /support/
+include_in_header: true
 ---
 
 ## Need help?
