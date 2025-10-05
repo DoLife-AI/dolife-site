@@ -2,6 +2,7 @@
 layout: page
 title: Privacy Policy
 permalink: /privacy/
+include_in_header: true
 ---
 
 _Last updated: {{ site.time | date: "%B %d, %Y" }}_
