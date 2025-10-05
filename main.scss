@@ -36,12 +36,13 @@ $social-icons-background-color: {{ site.social_icons_background_color }};
     "github-markdown";
 
 /* Custom footer legal line */
-.legal{
-  display:block;
-  width:100%;
-  margin:24px 0 32px;
-  text-align:center;
-  line-height:1.4;
-  font-size: clamp(14px, 1.6vw, 16px);
-  opacity:.85;
+.legal {
+  display: block;
+  width: 100%;
+  margin: 24px 0 32px;
+  text-align: center !important;
+  line-height: 1.4;
+  font-size: clamp(14px, 1.8vw, 16px) !important;
+  opacity: .85;
 }
+
