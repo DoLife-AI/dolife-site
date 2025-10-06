@@ -33,16 +33,4 @@ $social-icons-background-color: {{ site.social_icons_background_color }};
 @import 
     "base",
     "layout",
-    "github-markdown";
-
-/* Custom footer legal line */
-.legal {
-  display: block;
-  width: 100%;
-  margin: 24px 0 32px;
-  text-align: center !important;
-  line-height: 1.4;
-  font-size: clamp(14px, 1.8vw, 16px) !important;
-  opacity: .85;
-}
-
+    "github-markdown"
