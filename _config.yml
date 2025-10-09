@@ -69,10 +69,6 @@ features                                  :
     description                           : Set tasks and calendar events to repeat on your schedule—daily, weekly, or custom—with smart reminders.
     fontawesome_icon_name                 : link
 
-  - title                                 : SUPER URGENT (Must-Do Today)
-    description                           : Mark critical items as SUPER URGENT to keep them front and center—and get a friendly evening nudge if they’re still open.
-    fontawesome_icon_name                 : info-circle
-
 
 # Theme Settings
 topbar_color                              : "#000000"
