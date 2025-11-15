@@ -19,7 +19,7 @@ You must be **13+** to use DoLife. You’re responsible for your account and kee
 Don’t misuse the Service, break laws, harm others, reverse engineer, scrape, or try to bypass security. Don’t upload unlawful content or spam.
 
 ## 4) Subscriptions & billing
-We offer a free tier and optional paid plans (e.g., multi-user sharing; AI-generated action items). Pricing, features, and trials are shown in-app. Subscriptions auto-renew until canceled. App Store billing terms apply.  
+We offer a free tier and optional paid plans (e.g., multi-user sharing). Pricing, features, and trials are shown in-app. Subscriptions auto-renew until canceled. App Store billing terms apply.  
 **Grace periods:** for failed renewals, we may provide up to a **3-day** grace period at our discretion.  
 **Refunds:** App Store refund rules apply. Separately, we may grant a goodwill refund on your **first** subscription term upon request within **14 days**.
 
@@ -28,7 +28,7 @@ You own your content. You grant us a limited, worldwide, royalty-free license to
 
 ## 6) Optional connectors & AI
 Connectors (Google/Microsoft/iCloud email; Apple/Google/Microsoft calendars) are optional and controlled by you. You can revoke at any time.  
-AI extraction is applied to **sanitized** email text (on-device redaction) and returns suggested tasks for your review.
+If connected to School Failsafe, a separate product, AI extraction is applied to **sanitized** email text (on-device redaction) and returns suggested tasks for your review.
 
 ## 7) Privacy
 See our [Privacy Policy](/privacy/) for details on what we collect and how we use it.
@@ -60,4 +60,4 @@ We may suspend or terminate your access for misuse, security risk, or nonpayment
 We may update these Terms. We’ll post updates here and update the “Last updated” date. For material changes, we may notify you in-app or by email.
 
 ## 16) Contact
-[support@dolife-ai.com](mailto:support@dolife-ai.com)
+[stephen@dolife-ai.com](mailto:stephen@dolife-ai.com)
