@@ -45,7 +45,7 @@ features                                  :
     description                           : Real-time cloud sharing with partners and caregivers. Assign owners, follow progress, and stay aligned.
     fontawesome_icon_name                 : mobile
 
-  - title                                 : Sync with Google or Apple Calendars
+  - title                                 : Sync with Google, Apple, or Outlook Calendars
     description                           : View and add events that stay in sync with your favorite calendar so plans are always up to date.
     fontawesome_icon_name                 : play-circle
 
