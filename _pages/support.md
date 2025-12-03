@@ -6,7 +6,7 @@ include_in_header: true
 ---
 
 ## Need help?
-Email us at **[support@dolife-ai.com](mailto:support@dolife-ai.com)**.  
+Email us at **[stephen@dolife-ai.com](mailto:stephen@dolife-ai.com)**.  
 Target response time: **within 2 business days**.
 
 ### Common requests we can handle
