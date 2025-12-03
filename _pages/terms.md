@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Terms of Service
+title: Terms of Use
 permalink: /terms/
 include_in_header: true
 ---
 
-_Last updated: {{ site.time | date: "%B %d, %Y" }}_
+_Last updated: December 2, 2025_
 
 These Terms govern your use of DoLife (“**Service**”), provided by DoLife AI, LLC (**we/us**), Georgia, USA. By using the Service, you agree to these Terms.
 
@@ -37,7 +37,8 @@ See our [Privacy Policy](/privacy/) for details on what we collect and how we us
 We may add/modify features or discontinue the Service (or parts) with reasonable notice where practical. Beta features may be unstable. We aim for high availability but provide no guaranteed uptime.
 
 ## 9) Data export & deletion
-You can request account deletion via support, and export or copy data where available. We may retain limited data as required by law or for backups (which roll off within **35 days**).
+You can delete your account from within the app (More > Profile). When you delete your account, we remove your account and associated task data from our active systems, subject to any data we’re required to keep for legal, security, or operational reasons (for example, billing records, security logs, and email correspondence).
+Where available in the app, you can export or copy your data (such as task lists) so you can keep your own backup or records. We do not currently provide long-term archival backups of your task data beyond what is necessary to operate the service.
 
 ## 10) Disclaimers
 THE SERVICE IS PROVIDED “AS IS”. WE DISCLAIM ALL WARRANTIES TO THE EXTENT PERMITTED BY LAW.
