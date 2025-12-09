@@ -62,25 +62,17 @@
 .site-header__nav {
   display: none;
   
-  @media (min-width: 640px) {
+  @media (min-width: 768px) {
     display: flex;
     align-items: center;
-    gap: 1rem;
-  }
-  
-  @media (min-width: 768px) {
     gap: 1.5rem;
   }
   
   a {
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
     font-weight: 500;
     color: #4A4A68;
     transition: color 0.15s ease;
-    
-    @media (min-width: 768px) {
-      font-size: 0.9375rem;
-    }
     
     &:hover {
       color: #1A1A2E;
@@ -89,15 +81,15 @@
 }
 
 .site-header__cta {
-  display: flex;
+  display: none;
+  
+  @media (min-width: 768px) {
+    display: flex;
+  }
   
   img {
-    height: 32px;
+    height: 40px;
     width: auto;
-    
-    @media (min-width: 768px) {
-      height: 40px;
-    }
   }
 }
 
