@@ -2,8 +2,9 @@
 // DoLife Base Styles
 // ============================================
 
-// Typography
-$font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+// Typography - $font is used by github-markdown.scss
+$font: 'DM Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$font-family: $font;
 
 // ============================================
 // Reset & Base Styles
