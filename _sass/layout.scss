@@ -240,8 +240,6 @@
   img {
     width: 100%;
     height: auto;
-    border-radius: 28px;
-    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
   }
 }
 
@@ -367,8 +365,6 @@
 .screenshots__image {
   width: 260px;
   height: auto;
-  border-radius: 20px;
-  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
   
   @media (min-width: 768px) {
     width: 320px;
@@ -573,8 +569,6 @@
   img {
     width: 280px;
     height: auto;
-    border-radius: 28px;
-    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
     
     @media (min-width: 768px) {
       width: 320px;
