@@ -92,7 +92,7 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding: calc(80px + $space-2xl) 0 $space-3xl;
+  padding: calc(80px + #{$space-2xl}) 0 $space-3xl;
   overflow: hidden;
   
   // Gradient background
@@ -902,7 +902,7 @@
 // ============================================
 
 .page-content {
-  padding: calc(80px + $space-2xl) 0 $space-3xl;
+  padding: calc(80px + #{$space-2xl}) 0 $space-3xl;
   min-height: 100vh;
   
   .container {
