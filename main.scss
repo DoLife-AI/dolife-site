@@ -2,17 +2,6 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-// CSS Custom Properties from Jekyll config
-:root {
-  --gradient-start: {{ site.gradient_start | default: "#00D4AA" }};
-  --gradient-mid: {{ site.gradient_mid | default: "#4CD964" }};
-  --gradient-end: {{ site.gradient_end | default: "#FFD60A" }};
-  --bg-color: {{ site.body_background_color | default: "#FAFAF8" }};
-  --text-primary: {{ site.feature_title_color | default: "#1A1A2E" }};
-  --text-secondary: {{ site.feature_text_color | default: "#4A4A68" }};
-  --accent: {{ site.link_color | default: "#00D4AA" }};
-}
-
 // Import Sass partials
 @import 
     "base",
