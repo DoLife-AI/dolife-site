@@ -2,6 +2,10 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+// Define variables needed by github-markdown.scss
+$accent-color: {{ site.link_color | default: "#00D4AA" }};
+$body-color: {{ site.body_background_color | default: "#FAFAF8" }};
+
 // Import Sass partials
 @import 
     "base",
