@@ -242,6 +242,7 @@
     height: auto;
     border-radius: 28px;
     box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
+    mix-blend-mode: multiply;
   }
 }
 
@@ -369,6 +370,7 @@
   height: auto;
   border-radius: 20px;
   box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
+  mix-blend-mode: multiply;
   
   @media (min-width: 768px) {
     width: 320px;
@@ -575,6 +577,7 @@
     height: auto;
     border-radius: 28px;
     box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
+    mix-blend-mode: multiply;
     
     @media (min-width: 768px) {
       width: 320px;
