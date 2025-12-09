@@ -1,3 +1,446 @@
 ---
-layout: default
+layout: null
 ---
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body>
+    <!-- ============================================ -->
+    <!-- Header / Navigation -->
+    <!-- ============================================ -->
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a href="/" class="site-header__logo" target="_self">
+                <img src="{{ site.app_icon | relative_url }}" alt="DoLife Logo">
+                <span>DoLife</span>
+            </a>
+            <nav class="site-header__nav">
+                <a href="/privacy/" target="_self">Privacy</a>
+                <a href="/terms/" target="_self">Terms</a>
+                <a href="/support/" target="_self">Support</a>
+            </nav>
+            <div class="site-header__cta">
+                <a href="https://apps.apple.com/app/id{{ site.ios_app_id }}">
+                    <img src="assets/appstore.png" alt="Download on App Store">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============================================ -->
+    <!-- Hero Section -->
+    <!-- ============================================ -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__inner">
+                <div class="hero__content">
+                    <div class="hero__logo">
+                        <img src="{{ site.app_icon | relative_url }}" alt="DoLife Logo">
+                    </div>
+                    <h1 class="hero__title">
+                        <span class="highlight">Fast</span> task management<br>
+                        for busy parents
+                    </h1>
+                    <p class="hero__subtitle">
+                        Filter instantly by domain. Skip fake due dates. Sync your calendar. Finally, a task app built for how families actually work.
+                    </p>
+                    <div class="hero__cta">
+                        <a href="https://apps.apple.com/app/id{{ site.ios_app_id }}" class="hero__appstore">
+                            <img src="assets/appstore.png" alt="Download on App Store">
+                        </a>
+                    </div>
+                </div>
+                <div class="hero__phone">
+                    <div class="hero__phone-frame">
+                        <img src="assets/screenshot/Screenshot 4.png" alt="DoLife App - Plan Your Day">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- Value Propositions Strip -->
+    <!-- ============================================ -->
+    <section class="value-props">
+        <div class="container">
+            <div class="value-props__inner">
+                <div class="value-props__item">
+                    <div class="value-props__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <circle cx="12" cy="12" r="4"></circle>
+                            <line x1="4.93" y1="4.93" x2="9.17" y2="9.17"></line>
+                            <line x1="14.83" y1="14.83" x2="19.07" y2="19.07"></line>
+                            <line x1="14.83" y1="9.17" x2="19.07" y2="4.93"></line>
+                            <line x1="4.93" y1="19.07" x2="9.17" y2="14.83"></line>
+                        </svg>
+                    </div>
+                    <h3 class="value-props__title">One-Tap Filtering</h3>
+                    <p class="value-props__desc">Organize tasks by Domain—Home, School, Sports, Work</p>
+                </div>
+                <div class="value-props__item">
+                    <div class="value-props__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="value-props__title">No Fake Due Dates</h3>
+                    <p class="value-props__desc">Use priority levels (High, Mid, Low) when dates don't matter</p>
+                </div>
+                <div class="value-props__item">
+                    <div class="value-props__icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                    </div>
+                    <h3 class="value-props__title">Calendar Sync</h3>
+                    <p class="value-props__desc">Google, Apple, Outlook—all in one place</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- Screenshots Carousel -->
+    <!-- ============================================ -->
+    <section class="screenshots">
+        <div class="container">
+            <div class="screenshots__header">
+                <h2 class="screenshots__title">See DoLife in Action</h2>
+                <p class="screenshots__subtitle">Built for the chaos of family life—fast, flexible, and always in sync.</p>
+            </div>
+        </div>
+        <div class="screenshots__carousel">
+            <div class="screenshots__track" id="screenshotTrack">
+                <div class="screenshots__slide">
+                    <img class="screenshots__image" src="assets/screenshot/Screenshot 1.png" alt="Connect Your Calendar">
+                    <div class="screenshots__caption">
+                        <h4>Connect Your Calendar</h4>
+                        <p>Google, Apple, Outlook</p>
+                    </div>
+                </div>
+                <div class="screenshots__slide">
+                    <img class="screenshots__image" src="assets/screenshot/Screenshot 2.png" alt="Tasks, Filtered Fast">
+                    <div class="screenshots__caption">
+                        <h4>Tasks, Filtered Fast</h4>
+                        <p>One tap filtering by domain</p>
+                    </div>
+                </div>
+                <div class="screenshots__slide">
+                    <img class="screenshots__image" src="assets/screenshot/Screenshot 4.png" alt="Plan Your Day">
+                    <div class="screenshots__caption">
+                        <h4>Plan Your Day</h4>
+                        <p>See today's tasks in one tap</p>
+                    </div>
+                </div>
+                <div class="screenshots__slide">
+                    <img class="screenshots__image" src="assets/screenshot/Screenshot 5.png" alt="Great for Partners">
+                    <div class="screenshots__caption">
+                        <h4>Great for Partners</h4>
+                        <p>Assign tasks to one another</p>
+                    </div>
+                </div>
+                <div class="screenshots__slide">
+                    <img class="screenshots__image" src="assets/screenshot/Screenshot 3.png" alt="No Fake Due Dates">
+                    <div class="screenshots__caption">
+                        <h4>No Fake Due Dates</h4>
+                        <p>Use priority levels instead</p>
+                    </div>
+                </div>
+            </div>
+            <div class="screenshots__nav">
+                <button class="screenshots__dot active" data-slide="0"></button>
+                <button class="screenshots__dot" data-slide="1"></button>
+                <button class="screenshots__dot" data-slide="2"></button>
+                <button class="screenshots__dot" data-slide="3"></button>
+                <button class="screenshots__dot" data-slide="4"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- Features Section -->
+    <!-- ============================================ -->
+    <section class="features">
+        <div class="container">
+            <div class="features__header">
+                <h2 class="features__title">Everything You Need</h2>
+                <p class="features__subtitle">Powerful features, simple to use. Designed for busy families who need to get things done.</p>
+            </div>
+            <div class="features__grid">
+                {% for feature in site.features %}
+                {% if feature.title %}
+                <div class="features__card">
+                    <div class="features__icon">
+                        {% case feature.icon %}
+                        {% when 'domains' %}
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="14" width="7" height="7"></rect>
+                            <rect x="3" y="14" width="7" height="7"></rect>
+                        </svg>
+                        {% when 'share' %}
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        {% when 'calendar' %}
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        {% when 'priority' %}
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                        </svg>
+                        {% when 'badges' %}
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                        </svg>
+                        {% when 'today' %}
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        {% when 'subtasks' %}
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 11 12 14 22 4"></polyline>
+                            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                        </svg>
+                        {% when 'recurring' %}
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="23 4 23 10 17 10"></polyline>
+                            <polyline points="1 20 1 14 7 14"></polyline>
+                            <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+                        </svg>
+                        {% else %}
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        {% endcase %}
+                    </div>
+                    <div class="features__content">
+                        <h3>{{ feature.title }}</h3>
+                        <p>{{ feature.description }}</p>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- Partners / Pricing Section -->
+    <!-- ============================================ -->
+    <section class="partners">
+        <div class="container">
+            <div class="partners__inner">
+                <div class="partners__content">
+                    <span class="partners__badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        For the whole family
+                    </span>
+                    <h2 class="partners__title">Great for Partners</h2>
+                    <p class="partners__desc">
+                        Coordinate with your partner, caregivers, or anyone helping with the family. Assign tasks, share progress, and stay in sync—all in real-time.
+                    </p>
+                    
+                    <div class="pricing-card">
+                        <div class="pricing-card__header">
+                            <h3 class="pricing-card__name">DoLife Family</h3>
+                            <p class="pricing-card__tagline">Task sharing for your household</p>
+                        </div>
+                        
+                        <div class="pricing-card__toggle">
+                            <button class="pricing-card__toggle-btn" data-period="monthly">Monthly</button>
+                            <button class="pricing-card__toggle-btn active" data-period="annual">Annual</button>
+                        </div>
+                        
+                        <div class="pricing-card__price">
+                            <div class="pricing-card__amount" id="priceDisplay">
+                                $39.99<span>/year</span>
+                            </div>
+                            <div class="pricing-card__savings" id="savingsDisplay">Save 33%</div>
+                        </div>
+                        
+                        <ul class="pricing-card__features">
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Assign tasks to household members
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Share tasks in real-time
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Cloud sync across all devices
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Approval workflow for shared tasks
+                            </li>
+                        </ul>
+                        
+                        <a href="https://apps.apple.com/app/id{{ site.ios_app_id }}" class="pricing-card__cta">
+                            <img src="assets/appstore.png" alt="Download on App Store">
+                        </a>
+                    </div>
+                </div>
+                <div class="partners__phone">
+                    <img src="assets/screenshot/Screenshot 5.png" alt="DoLife Partners Feature">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- Footer -->
+    <!-- ============================================ -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="site-footer__inner">
+                <div class="site-footer__brand">
+                    <img src="{{ site.app_icon | relative_url }}" alt="DoLife">
+                    <span>DoLife</span>
+                </div>
+                
+                <div class="site-footer__links">
+                    <a href="/privacy/" target="_self">Privacy Policy</a>
+                    <a href="/terms/" target="_self">Terms of Use</a>
+                    <a href="/support/" target="_self">Support</a>
+                </div>
+                
+                {% if site.email_address %}
+                <div class="site-footer__social">
+                    <a href="mailto:{{ site.email_address }}" title="Email">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                </div>
+                {% endif %}
+                
+                <div class="site-footer__meta">
+                    <p>Made by {{ site.your_name }} in {{ site.your_city }}</p>
+                    <p>&copy; {{ site.time | date: "%Y" }} DoLife AI, LLC</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================ -->
+    <!-- JavaScript -->
+    <!-- ============================================ -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Screenshot carousel navigation
+        const track = document.getElementById('screenshotTrack');
+        const dots = document.querySelectorAll('.screenshots__dot');
+        const slides = document.querySelectorAll('.screenshots__slide');
+        
+        if (track && dots.length) {
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    const slide = slides[index];
+                    if (slide) {
+                        slide.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+                        dots.forEach(d => d.classList.remove('active'));
+                        dot.classList.add('active');
+                    }
+                });
+            });
+            
+            // Update dots on scroll
+            let scrollTimeout;
+            track.addEventListener('scroll', () => {
+                clearTimeout(scrollTimeout);
+                scrollTimeout = setTimeout(() => {
+                    const trackRect = track.getBoundingClientRect();
+                    const trackCenter = trackRect.left + trackRect.width / 2;
+                    
+                    let closestIndex = 0;
+                    let closestDistance = Infinity;
+                    
+                    slides.forEach((slide, index) => {
+                        const slideRect = slide.getBoundingClientRect();
+                        const slideCenter = slideRect.left + slideRect.width / 2;
+                        const distance = Math.abs(trackCenter - slideCenter);
+                        
+                        if (distance < closestDistance) {
+                            closestDistance = distance;
+                            closestIndex = index;
+                        }
+                    });
+                    
+                    dots.forEach((dot, index) => {
+                        dot.classList.toggle('active', index === closestIndex);
+                    });
+                }, 50);
+            });
+        }
+        
+        // Pricing toggle
+        const toggleBtns = document.querySelectorAll('.pricing-card__toggle-btn');
+        const priceDisplay = document.getElementById('priceDisplay');
+        const savingsDisplay = document.getElementById('savingsDisplay');
+        
+        if (toggleBtns.length && priceDisplay) {
+            toggleBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    toggleBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    
+                    const period = btn.dataset.period;
+                    if (period === 'monthly') {
+                        priceDisplay.innerHTML = '$4.99<span>/month</span>';
+                        savingsDisplay.style.display = 'none';
+                    } else {
+                        priceDisplay.innerHTML = '$39.99<span>/year</span>';
+                        savingsDisplay.style.display = 'inline-block';
+                    }
+                });
+            });
+        }
+        
+        // Header background on scroll
+        const header = document.querySelector('.site-header');
+        if (header) {
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    header.style.background = 'rgba(250, 250, 248, 0.95)';
+                } else {
+                    header.style.background = 'rgba(250, 250, 248, 0.8)';
+                }
+            });
+        }
+    });
+    </script>
+</body>
+</html>

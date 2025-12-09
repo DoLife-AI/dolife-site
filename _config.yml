@@ -9,7 +9,7 @@ appstore_link                             :                                     
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_icon                                  : assets/screenshot/logo.png                # DoLife circular gradient logo
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Fast task management for busy parents.
@@ -39,66 +39,71 @@ features                                  :
 
   - title                                 : Organize by Domain
     description                           : Create custom Domains—Home, School, Sports, Work, and more—to group and instantly filter your tasks.
-    fontawesome_icon_name                 : magic
+    icon                                  : domains
 
   - title                                 : Share and Assign Tasks with Others
     description                           : Real-time cloud sharing with partners and caregivers. Assign owners, follow progress, and stay aligned.
-    fontawesome_icon_name                 : mobile
+    icon                                  : share
 
   - title                                 : Sync with Google, Apple, or Outlook Calendars
     description                           : View and add events that stay in sync with your favorite calendar so plans are always up to date.
-    fontawesome_icon_name                 : play-circle
+    icon                                  : calendar
 
   - title                                 : Choose Due Dates or Urgency
-    description                           : Skip arbitrary due dates when you don’t need them—set an urgency instead (High, Mid, Low) and focus on what matters now.
-    fontawesome_icon_name                 : sync
+    description                           : Skip arbitrary due dates when you don't need them—set an urgency instead (High, Mid, Low) and focus on what matters now.
+    icon                                  : priority
 
   - title                                 : Assign Child Badges
-    description                           : Tag tasks with child badges—perfect for kids in the same class or league—so you can filter and find what’s relevant fast.
-    fontawesome_icon_name                 : adjust
+    description                           : Tag tasks with child badges—perfect for kids in the same class or league—so you can filter and find what's relevant fast.
+    icon                                  : badges
 
   - title                                 : Plan Tab for Today
     description                           : Curate a lightweight Today/Weekend list without the noise of your full backlog—reduce overwhelm and finish more.
-    fontawesome_icon_name                 : star
+    icon                                  : today
 
   - title                                 : Subtasks for Clear Steps
     description                           : Break big tasks into bite-size, checkable subtasks to make progress obvious.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+    icon                                  : subtasks
 
   - title                                 : Recurring Tasks and Events
     description                           : Set tasks and calendar events to repeat on your schedule—daily, weekly, or custom—with smart reminders.
-    fontawesome_icon_name                 : link
+    icon                                  : recurring
 
 
-# Theme Settings
-topbar_color                              : "#000000"
-topbar_transparency                       : 0.1
-topbar_title_color                        : "#ffffff"
+# Theme Settings - DoLife Gradient Palette (from logo)
+# Primary gradient: cyan-teal → green → golden yellow
+gradient_start                            : "#00D4AA"
+gradient_mid                              : "#4CD964"
+gradient_end                              : "#FFD60A"
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+topbar_color                              : "#1A1A2E"
+topbar_transparency                       : 0.95
+topbar_title_color                        : "#1A1A2E"
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+cover_image                               : assets/headerimage.png
+cover_overlay_color                       : "#FAFAF8"
+cover_overlay_transparency                : 0
 
-body_background_color                     : "#ffffff"
+device_color                              : white                                     # Set to: blue, black, yellow, coral or white.
 
-link_color                                : "#1d63ea"
+body_background_color                     : "#FAFAF8"
 
-app_title_color                           : "#ffffff"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#ffffff"
+link_color                                : "#00D4AA"
 
-feature_title_color                       : "#000000"
-feature_text_color                        : "#666666"
+app_title_color                           : "#1A1A2E"
+app_price_color                           : "#1A1A2E"
+app_description_color                     : "#1A1A2E"
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_title_color                       : "#1A1A2E"
+feature_text_color                        : "#4A4A68"
 
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
+feature_icons_foreground_color            : "#00D4AA"
+feature_icons_background_color            : "#E8FAF5"
 
-footer_text_color                         : "#666666"
+social_icons_foreground_color             : "#4A4A68"
+social_icons_background_color             : "#F0F0F5"
+
+footer_text_color                         : "#4A4A68"
 
 
 
